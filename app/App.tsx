@@ -56,6 +56,16 @@ function AppContent() {
         >
           <Text style={styles.buttonText}>{t('detectLostCards')}</Text>
         </Pressable>
+
+        <Pressable
+          style={({ pressed }) => [
+            styles.button,
+            pressed && styles.buttonPressed,
+          ]}
+          onPress={() => {}}
+        >
+          <Text style={styles.buttonText}>{t('suggestionHint')}</Text>
+        </Pressable>
       </View>
     </View>
   );

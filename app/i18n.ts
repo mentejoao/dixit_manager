@@ -6,18 +6,21 @@ const resources = {
     translation: {
       verifyExpansion: 'Verify Expansion',
       detectLostCards: 'Detect Lost Cards',
+      suggestionHint: 'Suggestion Hint',
     },
   },
   pt: {
     translation: {
       verifyExpansion: 'Verificar expansão',
       detectLostCards: 'Detectar cartas perdidas',
+      suggestionHint: 'Sugestões de dica',
     },
   },
   es: {
     translation: {
-      verifyExpansion: 'Verificar expansión',
+      verifyExpansion: 'Verificar expansão',
       detectLostCards: 'Detectar cartas perdidas',
+      suggestionHint: 'Sugerencias de pista',
     },
   },
 };
