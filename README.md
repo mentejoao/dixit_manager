@@ -1,4 +1,5 @@
 pipeline inicialmente pensado:
+```
 camera
 ↓
 detectar carta
@@ -14,3 +15,4 @@ DINOv2 embedding
 FAISS search
 ↓
 retorna carta
+```
