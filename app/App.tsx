@@ -34,7 +34,7 @@ function AppContent() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Dixit Manager</Text>
+      <Text style={styles.title}>DiXit{`\n`}MANAGER</Text>
 
       <View style={styles.buttonContainer}>
         <Pressable
@@ -84,6 +84,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#c97b63',
     marginBottom: 30,
+    textAlign: 'center', // Ensures both lines are centered
   },
 
   buttonContainer: {
