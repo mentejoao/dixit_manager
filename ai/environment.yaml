@@ -1,0 +1,4 @@
+name: dixit
+dependencies:
+  - python=3.13
+  - pip
